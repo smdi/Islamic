@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.islamic.Fundamentals">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Importance Of Reading Hadees"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:background="#FFEB06"
+        android:textColor="#000"
+        android:shadowColor="#A76000"
+        />
+    <TextView
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:lineSpacingExtra="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/textview_for_importance"
+
+        />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="560dp"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            android:id="@+id/my_web_view"
+            />
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="Click to read more"
+          android:background="#FFAD4F"
+          android:layout_margin="20dp"
+          android:textColor="#000"
+          android:shadowColor="#A76000"
+          android:id="@+id/button_view_for_importance"
+          />
+
+        <TextView
+            android:background="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:lineSpacingExtra="20dp"
+            android:id="@+id/textview_for_importance1"
+
+            />
+
+
+        <TextView
+            android:background="#FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:lineSpacingExtra="20dp"
+            android:id="@+id/textview_for_importance2"
+
+            />
+    </LinearLayout>
+
+</ScrollView>
+
+
+</FrameLayout>
